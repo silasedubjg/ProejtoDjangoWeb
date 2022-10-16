@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    font-size: larger;
+    font: 1em sans-serif;
+    background-color: aliceblue;
+    border-style: solid;
+
+}
+
+#logoestacionamento {
+    display: block;
+
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecalho h1 {
+    position: relative;
+
+    text-align: center;
+    color: brown;
+}
+
+#cabecalho h5 {
+    position: relative;
+
+    text-align: center;
+    color: brown;
+}
+
+#menu {
+    list-style: none;
+    border-style: solid;
+    position: relative;
+    top: 0;
+
+}
+
+ul {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    display: block;
+    color: blue;
+    padding-inline-start: 40px;
+}
+
+li {
+    border-right: 1px solid #c0c0c0;
+    display: list-item;
+    text-align: justify;
+}
+
+.menu li a {
+    color: rgb(105, 26, 26);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.menu li a:hover {
+    background: #333;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+#promocoes {
+    display: block;
+    border-style: solid;
+}
+
+#promocoes1 {
+    width: 50%;
+    display: block;
+    text-align: left;
+}
+
+#promocoes2 {
+    width: 50%;
+    display: block;
+    text-align: left;
+}
+
+#promocoes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col-6 {
+    width: 50%;
+    height: 5cm;
+    padding: 10;
+}
+
+#pospromocoes {
+    display: flex;
+    flex-flow: row wrap;
+    border-style: solid;
+}
+
+.pospromocoes {
+    width: 25%;
+    height: 5cm;
+    padding: 10;
+    padding-top: 1cm;
+    
+}
+
+#estacionamento{
+    width: 5cm;
+}
